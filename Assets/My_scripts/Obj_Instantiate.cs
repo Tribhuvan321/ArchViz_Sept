@@ -28,4 +28,12 @@ public class Obj_Instantiate : MonoBehaviour
     {
         Instantiate(obj[4], placeAt.transform);
     }
+    public void DesstroyFurniture()
+    {
+        //for(int i =0; i< obj.Length; i++)
+        //{
+        //    obj[i].
+        //}
+        Debug.Log(this.GetComponentInParent<Transform>());
+    }
 }

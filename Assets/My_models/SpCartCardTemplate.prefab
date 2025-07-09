@@ -316,7 +316,7 @@ GameObject:
   - component: {fileID: 3045895901474010510}
   - component: {fileID: 1931849102023540977}
   m_Layer: 5
-  m_Name: Card
+  m_Name: Cardyeah
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -394,7 +394,7 @@ GameObject:
   - component: {fileID: 6258135035969626468}
   - component: {fileID: 7555457222121564622}
   m_Layer: 5
-  m_Name: item
+  m_Name: item_img
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

@@ -20,17 +20,17 @@ public class DynamicCart : MonoBehaviour
     //int i;
     void Start()
     {
-        objPrice = new Dictionary<string, string>()
-        {
-            {"table","1000"},
-            {"chandlier","2000"}
-        };
+        //objPrice = new Dictionary<string, string>()
+        //{
+        //    {"table","1000"},
+        //    {"chandlier","2000"}
+        //};
 
-        objImgPath = new Dictionary<string, string>()
-        {
-            {"table","/assets/img1" },
-            {"chandlier", "/assets/img2" }
-        };
+        //objImgPath = new Dictionary<string, string>()
+        //{
+        //    {"table","/assets/img1" },
+        //    {"chandlier", "/assets/img2" }
+        //};
     }
 
     // Update is called once per frame
@@ -44,9 +44,13 @@ public class DynamicCart : MonoBehaviour
         //{
         objNames = new string[activeObjList.Length];
         tribhu();
-        item.GetComponent<Image>().sprite = Resources.Load<Sprite>("Chandlier");
-        //spriteRdr.sprite = Resources.Load<Sprite>("Chandlier");
-        Instantiate(TemplateCardPrefab,Container); //-------------> for instantiating the card
+
+
+
+
+        //item.GetComponent<Image>().sprite = Resources.Load<Sprite>("Chandlier");
+        ////spriteRdr.sprite = Resources.Load<Sprite>("Chandlier");
+        //Instantiate(TemplateCardPrefab,Container); //-------------> for instantiating the card
         
         //}
         //Debug.Log(done);
@@ -65,5 +69,10 @@ public class DynamicCart : MonoBehaviour
             i++;
         }
         //done++;
+    }
+
+    public void addToCart ()
+    {
+
     }
 }

@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Anchor
   - Wall
+  - furniture
+  - Container
   layers:
   - Default
   - TransparentFX
